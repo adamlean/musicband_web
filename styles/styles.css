@@ -251,3 +251,24 @@ a {
   height: 40px;
   background-color: red;
 }
+
+/* Footer */
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  margin: 0 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 25px;
+}
