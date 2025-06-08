@@ -151,3 +151,11 @@ a {
   color: #ffffff;
   font-size: 25px;
 }
+
+/* Form */
+
+input, textarea {
+  background-color: #fcf9f2;
+  color: #333;
+  border: 1px solid #ccc;
+}
