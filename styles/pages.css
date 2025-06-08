@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
-  background-color:  #f0f0f0;
+  background-color: rgb(0, 0, 0);
   box-sizing: border-box;
   scroll-behavior: smooth;
 
@@ -38,6 +38,37 @@ html, body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+
+p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.subtitle p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+/* Nav */
 
 .logo {
   font-size: 24px;
@@ -79,4 +110,24 @@ html, body {
   margin-top: 35px;
   list-style: none;
   font-size: 24px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 20px;
 }
