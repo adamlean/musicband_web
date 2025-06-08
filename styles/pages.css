@@ -66,6 +66,15 @@ a {
   text-decoration: none;
 }
 
+.title {
+  flex: 1;
+}
+
+.title h2 {
+  font-size: 1.5rem;
+}
+
+
 .subtitle p {
   font-weight: 700;
   font-size: 16px;
