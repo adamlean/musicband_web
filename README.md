@@ -1,2 +1,3 @@
-# apocalypticon
-Fake thrash metal band website
+# Music Band Template
+
+Fake music band website
