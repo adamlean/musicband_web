@@ -1,81 +1,36 @@
 <!DOCTYPE html>
-<!-- {% load static %} -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta
-      name="description"
-      content="thrash metal, death metal, groove metal, nu metal, heavy metal, metal band"
-    />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://example.com/" />
-
-    <title>Music Band Website</title>
-
+    <title>Rock Band Landing</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <a href="../index.html" class="logo">Band Logo</a>
-          <ul class="nav_menu">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/music.html">Music</a></li>
-            <li><a href="./pages/store.html">Store</a></li>
-            <li><a href="./pages/contacts.html">Contacts</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div class="hero">
+      <div class="menu-icon">&#9776;</div>
 
-    <div class="social-bar">
-      <div class="icons">
-        <a href="https://www.youtube.com/@crashtheroutines" target="_blank"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a href="https://www.instagram.com/crashtheroutines" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="../assets/svg/Instagram.svg" target="_blank"
-          ><i class="fab fa-spotify"></i
-        ></a>
-        <a href="https://github.com/crashtheroutines" target="_blank"
-          ><i class="fab fa-itunes"></i
-        ></a>
+      <div class="hero-content">
+        <img src="logo.png" alt="Band Logo" class="band-logo" />
       </div>
-      <!-- <div class="label">Social</div>
-      <div class="line"></div> -->
+
+      <div class="bottom-menu">
+        <a href="#">Music</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+        <a href="#">Newsletter</a>
+      </div>
+
+      <div class="socials">
+        <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="" target="_blank"><i class="fab fa-soundcloud"></i></a>
+        <a href="" target="_blank"><i class="fab fa-bandcamp"></i></a>
+      </div>
     </div>
-
-    <main>
-      <section id="hero" class="hero">
-        <div class="container">
-          <div class="hero_title">
-            <h1 class="title_hero">New Album Out Now</h1>
-          </div>
-          <div class="hero_btn">
-            <button class="portfolio_btn">
-              <div class="hero_btn_title">Listen Here</div>
-            </button>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <p>&copy; 2025, All Rights Reserved</p>
-        <p>Photo by Machine Head</p>
-      </div>
-    </footer>
-
-    <script src="js/scripts.js"></script>
   </body>
 </html>
