@@ -65,17 +65,17 @@ body, html {
 .socials {
   position: absolute;
   bottom: 50px;
-  right: 20px;
+  right: 50px;
   display: flex;
   gap: 15px;
 }
 
 .socials a {
   color: white;
-  width: 50px;
+  font-size: 28px;
+  transition: color 0.3s ease;
 }
 
-.socials img:hover {
-  opacity: 1;
+.socials a:hover {
   color: red;
 }
